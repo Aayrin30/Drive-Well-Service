@@ -4,7 +4,6 @@ This repository contains the full project setup for Drive Well Service including
 
 - 🚗 `DriveWellService/` – Frontend
 - 🔧 `DriveWellService-backend/` – Backend API
-- 🛠️ `DriveWellService-admin/` – Admin dashboard
 
 ## Setup
 
