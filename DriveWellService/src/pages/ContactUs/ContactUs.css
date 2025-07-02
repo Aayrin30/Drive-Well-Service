@@ -1,0 +1,22 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  /* background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url(""),
+        center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.boxcontact {
+  background: linear-gradient(
+    204deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(214, 178, 210, 1) 38%,
+    rgba(212, 178, 211, 1) 42%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}

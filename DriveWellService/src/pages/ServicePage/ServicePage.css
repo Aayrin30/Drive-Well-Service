@@ -1,0 +1,44 @@
+.animated-car{
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+}
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+.animated-p1 {
+  opacity: 0;
+  animation: slideDown 1s ease forwards;
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.animated-p2{
+  opacity: 0;
+  animation: slideUp 1s ease forwards;
+}
+@keyframes slideUP {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}

@@ -1,0 +1,39 @@
+.register-container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://media.istockphoto.com/id/1387759698/photo/hand-of-car-mechanic-with-wrench-auto-repair-garage-mechanic-works-on-the-engine-of-the-car.jpg?s=612x612&w=0&k=20&c=JVYyKMvP-NN-bTMyIF-pNrifwvjyjKcIRjTVEmSmPsM=")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-wrapper {
+  width: 40%;
+  padding: 20px;
+  background-color: white;
+}
+.title {
+  font-size: 24px;
+  font-weight: 300;
+}
+.register-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.register-form > .input {
+  flex: 1;
+  min-width: 40%;
+  margin: 20px 10px 10px 0px;
+  padding: 10px;
+  text-transform: none !important;
+}
+.agreement {
+  font-size: 12px;
+  margin: 20px 0px;
+}

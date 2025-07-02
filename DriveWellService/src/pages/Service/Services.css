@@ -1,0 +1,95 @@
+
+.animated-ser{
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+@keyframes slideRight {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  .animated-imgs{
+    opacity: 0;
+    animation: slideDown 1s ease forwards;
+}
+@keyframes slideDown {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+
+
+.maincontainer {
+  position: relative;
+  margin-top: 50px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.maincontainer:hover .overlay {
+  display: block;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.undercontainer {
+  position: absolute;
+  width: 100%;
+  left:0;
+  top: 35%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.undercontainer p{
+  font-size: 20px;
+  color: black;
+  top: 0;
+  font-weight: 600;
+}
+
+.undercontainer button {
+  font-size: 15px;
+  font-weight: 600;
+  width: 35%;
+  padding: 12px 0px;
+  text-align: center;
+  color: black;
+  border: solid 3px black;
+  background: transparent;
+  z-index: 1;
+}
+
+.undercontainer button:hover{
+  color: white;
+  background: black;
+  font-weight: 500;
+}
+
+.maincontainer:hover .undercontainer {
+  opacity: 1;
+}

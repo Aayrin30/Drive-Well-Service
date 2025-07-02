@@ -1,0 +1,94 @@
+.app.dark {
+  background-color: #111;
+  color: rgb(255, 255, 255);
+
+  .chartGrid {
+    stroke: rgba(228, 228, 228, 0.219);
+  }
+
+  .table {
+    background-color: #111;
+
+    .tableCell {
+      color: gray;
+    }
+  }
+
+  .navbar {
+    color: #999;
+    border-color: #333;
+
+    .search {
+      border-color: gray;
+    }
+  }
+
+  .sidebar {
+    background-color: #111;
+    border-color: #333;
+
+    .top {
+      .logo {
+        color: #999;
+      }
+    }
+
+    hr {
+      border-color: #333;
+    }
+
+    ul {
+      li {
+        &:hover {
+          background-color: #333;
+        }
+
+        .icon {
+          color: #999;
+        }
+      }
+    }
+  }
+
+  .datatable {
+    .datagrid {
+      border: none;
+      text-align: center;
+      color: white;
+      .MuiTablePagination-toolbar {
+        color: white;
+      }
+
+      .MuiTablePagination-actions .MuiButtonBase-root {
+        color: white;
+      }
+
+      /* Change color of selected pagination button */
+      .Mui-selected {
+        color: white;
+      }
+
+      .viewButton,
+      .deleteButton,
+      .cellWithStatus {
+        padding: 2px 5px;
+        border-radius: 5px;
+        color: red;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+
+  input,
+  select,
+  textarea {
+    background-color: transparent;
+    color: white;
+  }
+
+  option {
+    background-color: #111;
+    color: white;
+  }
+}

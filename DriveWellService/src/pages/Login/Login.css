@@ -1,0 +1,59 @@
+.login-container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://media.istockphoto.com/id/1347150429/photo/professional-mechanic-working-on-the-engine-of-the-car-in-the-garage.jpg?s=612x612&w=0&k=20&c=5zlDGgLNNaWsp_jq_L1AsGT85wrzpdl3kVH-75S-zTU=")
+        center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-wrapper {
+    width: 25%;
+    padding: 20px;
+    background-color: white;
+  }
+  .title {
+    font-size: 24px;
+    font-weight: 300;
+    background-color: white;
+  }
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .input {
+    flex: 1;
+    min-width: 40%;
+    margin: 20px 10px 10px 0px;
+    padding: 10px;
+    border: 1px solid black;
+    text-transform: none !important;
+  }
+  .button {
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: #1d263b;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .button:disabled {
+    cursor: not-allowed;
+  }
+  
+  a {
+    margin: 5px 0px;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: inherit;
+  }
+  
